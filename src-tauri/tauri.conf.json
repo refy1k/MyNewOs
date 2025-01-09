@@ -13,7 +13,9 @@
         "title": "MyNewOS",
         "width": 1200,
         "height": 700,
-        "center": true
+        "center": true,
+        "minWidth": 1000,
+        "minHeight": 600
       }
     ],
     "security": {
