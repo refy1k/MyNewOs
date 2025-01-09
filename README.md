@@ -1,1 +1,1 @@
-#MyNewOs - Is open source project for catomization of NewOs (recommended for Windows 11)
+# MyNewOs - Is open source project for catomization of NewOs (recommended for Windows 11)
