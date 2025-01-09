@@ -5,6 +5,7 @@ header {
     display: flex;
     height: 50px;
     align-items: center;
+    margin: 0px 15px;
 }
 
 .HeaderBlock {
@@ -18,48 +19,45 @@ header {
 .HeaderText {
     color: rgb(0, 0, 0);
     font-size: 20px;
-    padding: 2px 5px;
+    padding: 5px 10px;
     margin: 0 5px;
     text-decoration: none;
-    background-color: white;
+    color: white;
+    background-color: rgb(77, 72, 72);
     border-radius: 10px;
 }
 
 body {
     background-color: rgb(31, 29, 29);
-    color: white;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
-.buttonbootstrap {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    font-size: 15px;
-    display: block;
-    margin: 10px auto;
-    text-decoration: none;
+.app-list {
+    display: flex;
+    justify-content: center;
 }
 
-.mainbootstrap {
+.app {
+    display: flex;
+    width: 330px;
+    background-color: rgb(77, 72, 72);
+    border-radius: 15px;
+    margin: 20px;
     padding: 10px;
-    display: block;
-    background-color: rgb(72, 69, 69);
-    border-radius: 15px;
-    margin: 15px ;
+    justify-content: center;
+}
+
+.app-text {
+    font-size: 30px;
     text-align: center;
+    padding: 10px;
 }
 
-.appbootstrap {
-    margin: 5px;
-    padding: 5px 40px;
-    display: inline-block;
-    background-color: rgb(30, 27, 27);
-    border-radius: 15px;
+.app-button {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(31, 29, 29);
+    border-radius: 10px;
+    padding: 5px 10px;
 }
-
-.appbootstrap:hover {
-    background-color: rgb(47, 47, 47);
-    transition: ease-in-out 0.2s;
-}
-
